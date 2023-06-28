@@ -261,6 +261,10 @@ Thanks goes to these wonderful people ([emoji key][acek]):
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/CY-Pan"><img src="https://avatars.githubusercontent.com/u/59761962?v=4?s=100" width="100px;" alt="Ad Red"/><br /><sub><b>Ad Red</b></sub></a><br /><a href="#design-CY-Pan" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nopeless"><img src="https://avatars.githubusercontent.com/u/38830903?v=4?s=100" width="100px;" alt="nopeless"/><br /><sub><b>nopeless</b></sub></a><br /><a href="https://github.com/JanDeDobbeleer/oh-my-posh/commits?author=nopeless" title="Code">💻</a> <a href="https://github.com/JanDeDobbeleer/oh-my-posh/commits?author=nopeless" title="Documentation">📖</a> <a href="#design-nopeless" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://linkedin.com/in/vinhloc30796"><img src="https://avatars.githubusercontent.com/u/19675202?v=4?s=100" width="100px;" alt="Loc Nguyen"/><br /><sub><b>Loc Nguyen</b></sub></a><br /><a href="https://github.com/JanDeDobbeleer/oh-my-posh/commits?author=vinhloc30796" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://tavis.page"><img src="https://avatars.githubusercontent.com/u/66774833?v=4?s=100" width="100px;" alt="Tavi"/><br /><sub><b>Tavi</b></sub></a><br /><a href="https://github.com/JanDeDobbeleer/oh-my-posh/commits?author=Coder-Tavi" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://ndawson.me"><img src="https://avatars.githubusercontent.com/u/37987430?v=4?s=100" width="100px;" alt="Nick Dawson"/><br /><sub><b>Nick Dawson</b></sub></a><br /><a href="https://github.com/JanDeDobbeleer/oh-my-posh/commits?author=NicholasDawson" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
