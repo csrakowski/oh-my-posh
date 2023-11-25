@@ -4,6 +4,25 @@
     {
       "alignment": "left",
       "segments": [
+        // {
+        //   "background": "#003543",
+        //   "foreground": "#fff",
+        //   "powerline_symbol": "\ue0b0",
+        //   "properties": {
+        //     "windows": "\uf179"
+        //   },
+        //   "style": "powerline",
+        //   "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}",
+        //   "type": "os"
+        // },
+        // {
+        //   "background": "#003543",
+        //   "foreground": "#d2ff5e",
+        //   "powerline_symbol": "\ue0b0",
+        //   "style": "powerline",
+        //   "template": "{{ .UserName }} ",
+        //   "type": "session"
+        // },
         {
           "background": "#0087D8",
           "foreground": "#003544",
@@ -31,7 +50,7 @@
             "fetch_status": true
           },
           "style": "powerline",
-          "template": " {{ .HEAD }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
+          "template": " {{ .HEAD }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
         },
         {
@@ -42,7 +61,7 @@
             "always_enabled": true
           },
           "style": "powerline",
-          "template": " <#fefefe>\ufbab</> {{ .FormattedMs }}\u2800 ",
+          "template": " <#fefefe>\uf4e3</> {{ .FormattedMs }}\u2800 ",
           "type": "executiontime"
         },
         {
@@ -56,8 +75,8 @@
             "always_enabled": true
           },
           "style": "powerline",
-          "template": " \ufc8d ",
-          "type": "exit"
+          "template": " \uea6c ",
+          "type": "status"
         }
       ],
       "type": "prompt"
@@ -76,7 +95,7 @@
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "style": "powerline",
-          "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 \uf583 ",
+          "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 \ueb2d ",
           "type": "battery"
         },
         {
@@ -99,7 +118,7 @@
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "style": "powerline",
-          "template": "<#fff> \uf64f </>{{ .CurrentDate | date .Format }} ",
+          "template": "<#fff> \ue641 </>{{ .CurrentDate | date .Format }} ",
           "type": "time"
         }
       ],
@@ -131,5 +150,10 @@
   ],
   "console_title_template": "{{ .Shell }} in {{ .Folder }}",
   "final_space": true,
+  // "transient_prompt": {
+  //   "background": "transparent",
+  //   "foreground": "#FFD700",
+  //   "template": "{{if .Root}}\u26a1 {{end}}λ "
+  // },
   "version": 2
 }
