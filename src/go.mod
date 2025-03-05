@@ -1,6 +1,7 @@
 module github.com/jandedobbeleer/oh-my-posh/src
 
 go 1.22.3
+toolchain go1.23.7
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c
@@ -21,7 +22,7 @@ require (
 	github.com/wayneashleyberry/terminal-dimensions v1.1.0
 	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/image v0.24.0
-	golang.org/x/sys v0.30.0
+	golang.org/x/sys v0.31.0
 	golang.org/x/text v0.22.0
 	gopkg.in/ini.v1 v1.67.0
 )
