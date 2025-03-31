@@ -1,7 +1,6 @@
 module github.com/jandedobbeleer/oh-my-posh/src
 
 go 1.24.1
-
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c
 	github.com/Masterminds/sprig/v3 v3.3.0
@@ -32,7 +31,7 @@ require (
 	github.com/charmbracelet/bubbletea v1.3.4
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/goccy/go-json v0.10.5
-	github.com/goccy/go-yaml v1.16.0
+	github.com/goccy/go-yaml v1.17.1
 	github.com/gookit/goutil v0.6.18
 	github.com/hashicorp/hcl/v2 v2.23.0
 	github.com/mattn/go-runewidth v0.0.16
