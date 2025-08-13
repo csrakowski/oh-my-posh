@@ -20,9 +20,9 @@ require (
 	github.com/stretchr/testify v1.10.0
 	github.com/wayneashleyberry/terminal-dimensions v1.1.0
 	golang.org/x/crypto v0.40.0 // indirect
-	golang.org/x/image v0.29.0
-	golang.org/x/sys v0.34.0
-	golang.org/x/text v0.27.0
+	golang.org/x/image v0.30.0
+	golang.org/x/sys v0.35.0
+	golang.org/x/text v0.28.0
 	gopkg.in/ini.v1 v1.67.0
 )
 
@@ -32,13 +32,13 @@ require (
 	github.com/charmbracelet/bubbletea v1.3.6
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/goccy/go-json v0.10.5
-	github.com/gookit/goutil v0.7.0
+	github.com/gookit/goutil v0.7.1
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/mattn/go-runewidth v0.0.16
 	github.com/pelletier/go-toml/v2 v2.2.4
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.7
-	golang.org/x/mod v0.26.0
+	golang.org/x/mod v0.27.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
